@@ -31,7 +31,7 @@
 # print(next(a))
 # print(a)
 
-# 🦚🦚🦚🦚🦚🦚🦚🦚🦚🦚🦚 dekho bhai normal function kaise kaam karta hai  
+# 🦚🦚🦚🦚🦚🦚🦚🦚🦚🦚🦚  dekho bhai normal function kaise kaam karta hai  
 def name():
     print("ram")
 name()

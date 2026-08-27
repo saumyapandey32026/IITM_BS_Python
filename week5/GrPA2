@@ -1,0 +1,46 @@
+l = ["apple","mango","avocado","blueberry","banana"]
+def group_fruits(fruits: list):
+    groups = {}
+
+    for fruit in fruits:
+        letter = fruit[0]
+
+        if letter not in groups:
+            groups[letter] = []
+
+        groups[letter].append(fruit)
+
+    for letter in groups:          # ye line ke bina bhi sort kar sakte ho
+        groups[letter].sort()
+
+    return groups
+
+print(group_fruits(l))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

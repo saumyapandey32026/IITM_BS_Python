@@ -1,0 +1,52 @@
+# t = (20,30)
+# first, second = t
+# print(first,second)
+# print(f"{second},{first}")
+
+# def rev():
+#     t = input("enter a tuple : ")           # are bhai ye to hamesha string return karega na, tuple thodi
+#     first, second = t
+#     return f"{second},{first}"
+# print(rev())
+
+# to isliye ye tarika aajmao :-
+# m1
+# first = input("First : ")
+# second = input("Second : ")
+# t = (first, second)
+# print(t)
+
+# m2
+# thoda sa list ko bhi dekh lo isi sawal me 
+a, b, c = [10,40,55]
+print(a)
+print(a,b)
+print(a,b,c)
+
+# ab real question ko dekho
+# first, second = input("enter :").split()
+# t = (first, second)
+# print(t)
+
+# m3  for integer tuple
+# t = tuple(map(int, input("enter: ").split()))
+# print(t)
+# print(type(t))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
